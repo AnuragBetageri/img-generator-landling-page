@@ -9,6 +9,7 @@
   );
   padding: 1.5cm 0;
   overflow: hidden;
+  border-top: 2px solid white;
 }
 
 .marqure_h1 {
@@ -18,7 +19,7 @@
   font-size: 1.5cm;
   margin: 1cm;
 }
-svg {
+.collection_sec >svg {
   position: absolute;
   top: 0;
   z-index: 88;

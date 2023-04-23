@@ -53,6 +53,7 @@ color: rgb(205, 205, 205);
   font-weight: 400;
   line-height: 21px;
   color: white;
+  display: flex;
 }
 
 .rights {
