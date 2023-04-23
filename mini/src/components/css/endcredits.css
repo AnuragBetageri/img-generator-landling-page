@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.maindiv {
+  display: flex;
+  padding: 3cm 5cm;
+  justify-content: space-between;
+  background-image: linear-gradient(
+    111.4deg,
+    rgba(7, 7, 9, 1) 6.5%,
+    rgba(27, 24, 113, 1) 93.2%
+  );
+  width: 100vw;
+  overflow: hidden;
+}
+
+.logopng {
+  height: 6cm;
+  width: auto;
+  position: absolute;
+  top: -3cm;
+  left: -2cm;
+  /* background-color: aqua; */
+}
+
+.rights {
+  color: white;
+  font-size: x-small;
+}
+
+/* .head{
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+color: rgb(205, 205, 205);
+} */
+
+.uinfo {
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: "Carlito", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: rgb(205, 205, 205);
+}
+
+.ainfo {
+  text-decoration: none;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: "Carlito", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: white;
+}
+
+.rights {
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: "Carlito", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: rgb(205, 205, 205);
+}
+
+.A {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  left: -1cm;
+}
+
+.B2 > h4,
+.C2 > h4 {
+  margin-top: 1cm;
+  display: flex;
+}
+
+.B1 > h2,
+.C1 > h2 {
+  color: rgb(205, 205, 205);
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: "Carlito", sans-serif;
+  font-weight: bolder;
+}
