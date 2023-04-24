@@ -1,7 +1,7 @@
 import "../css/usecases.css";
 import Education from "../image/education.png";
 import img2 from "../image/2.png";
-import img3 from "../image/3.png";
+import Webdevop from "../image/webdevop.jpg";
 import meme from "../image/meme.png";
 
 function usecases() {
@@ -16,7 +16,7 @@ function usecases() {
       focused("uh2", "uimg2", "rgb(17,252,250)");
     }, 3000);
     setTimeout(() => {
-      focused("uh3", "uimg3", "rgb(72,22,111)");
+      focused("uh3", "uimg3", "rgb(221,225,228)");
     }, 6000);
 
     setTimeout(() => {
@@ -59,7 +59,7 @@ function usecases() {
         <div className="usecases_img_block">
           <img className="usecase_image uimg1 " src={Education}></img>
           <img className="usecase_image uimg2" src={img2}></img>
-          <img className="usecase_image uimg3 " src={img3}></img>
+          <img className="usecase_image uimg3 " src={Webdevop}></img>
           <img className="usecase_image uimg4 " src={meme}></img>
 
         </div>
