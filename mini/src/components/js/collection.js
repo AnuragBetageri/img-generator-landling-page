@@ -47,8 +47,6 @@ function collection() {
         <img className="collection_image m2" src={img8}></img>
         <img className="collection_image m2" src={img9}></img>
         <img className="collection_image m2" src={img10}></img>
-        {/* <img className="collection_image simage" src={img11}></img>
-            <img className="collection_image bimage" src={img12}></img> */}
       </div>
     </section>
   );

@@ -26,7 +26,7 @@ function usecases() {
     function focused(uh, ui, backcolor) {
       const elements = document.getElementsByClassName(`${uh}`);
       const image = document.getElementsByClassName(`${ui}`);
-      const back = document.getElementsByClassName("usecases_sec");
+      const back = document.getElementsByClassName("usecases_sec");   
 
       console.log(uh);
       for (let i = 0; i < elements.length; i++) {
@@ -61,10 +61,7 @@ function usecases() {
           <img className="usecase_image uimg2" src={img2}></img>
           <img className="usecase_image uimg3 " src={img3}></img>
           <img className="usecase_image uimg4 " src={img4}></img>
-          <img className="usecase_image uimg1 " src={img1}></img>
-          <img className="usecase_image uimg2" src={img2}></img>
-          <img className="usecase_image uimg3 " src={img3}></img>
-          <img className="usecase_image uimg4 " src={img4}></img>
+
         </div>
       </div>
     </section>

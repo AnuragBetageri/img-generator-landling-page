@@ -87,6 +87,8 @@ a
     color: white;
     background-color: none;
     border-color: white;
+    /* cursor: url("../image/thumb.png"), auto; */
+    /* cursor: col-resize, auto; */
 }
 
 .getstarted_btn:hover::before
@@ -98,7 +100,7 @@ a
     border-radius: 0;
     z-index: -1;
     background-color: rgb(55, 55, 55);
-    
+    /* cursor: col-resize, auto; */
 }
 
 .getstarted_img1
