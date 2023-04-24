@@ -16,7 +16,7 @@ function usecases() {
       focused("uh2", "uimg2", "rgb(17,252,250)");
     }, 3500);
     setTimeout(() => {
-      focused("uh3", "uimg3", "rgb(221,225,228)");
+      focused("uh3", "uimg3", "rgb(233, 233, 233)");
     }, 7000);
 
     setTimeout(() => {
