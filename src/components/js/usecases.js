@@ -6,7 +6,7 @@ import meme from "../image/meme.png";
 
 function usecases() {
   usecasestimer4();
-  setInterval(usecasestimer4, 12000);
+  setInterval(usecasestimer4, 14000);
   function usecasestimer4() {
     setTimeout(() => {
       focused("uh1", "uimg1", "rgb(255, 220, 95)");
@@ -14,14 +14,14 @@ function usecases() {
 
     setTimeout(() => {
       focused("uh2", "uimg2", "rgb(17,252,250)");
-    }, 3000);
+    }, 3500);
     setTimeout(() => {
       focused("uh3", "uimg3", "rgb(221,225,228)");
-    }, 6000);
+    }, 7000);
 
     setTimeout(() => {
       focused("uh4", "uimg4", "rgb(213, 192, 164)");
-    }, 9000);
+    }, 10500);
 
     function focused(uh, ui, backcolor) {
       const elements = document.getElementsByClassName(`${uh}`);
@@ -36,7 +36,7 @@ function usecases() {
         setTimeout(() => {
           elements[i].classList.toggle("isfocused");
           image[i].classList.toggle("isfocused_img");
-        }, 3000);
+        }, 3500);
       }
     }
   }
