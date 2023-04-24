@@ -1,0 +1,50 @@
+.Keyfeatures_sec
+{
+    width: 100vw;
+    height: 80vh;
+    background-color: rgb(239, 239, 239);
+}
+
+.key_heading_sec
+{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.key_main_heading
+{
+    font-size: 30px;
+ 
+    font-weight:900;
+    margin: 0.5cm;
+    letter-spacing: 2px;
+}
+.dot_span
+{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+    font-weight:900;
+}
+
+.dot_span:nth-child(1)
+{
+    color: red;
+}
+.dot_span:nth-child(2)
+{
+    color: blue;
+}
+
+.dot_span:nth-child(3)
+{
+    color: orange;
+}
+
+.key_heading
+{
+    text-align: center;
+}

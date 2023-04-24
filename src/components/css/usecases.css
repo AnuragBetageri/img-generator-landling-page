@@ -37,6 +37,10 @@
 
 .use_span {
   font-size: 1cm;
+
+    font-family: 'Monoton', cursive;
+    font-weight: 50;
+
 }
 
 .usecases_content {
