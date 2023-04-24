@@ -5,7 +5,7 @@ function key_features() {
     <div className="Keyfeatures_sec">
       <div className="key_heading_sec">
         <div className="key_main_heading">
-            <h1>Simple<span className="dot_span">. </span>Free<span className="dot_span">. </span>Safe<span className="dot_span">. </span></h1>
+            <h1>Free<span className="dot_span">. </span>Simple<span className="dot_span">. </span>Safe<span className="dot_span">. </span></h1>
 
         </div>
         <div className="key_heading">
