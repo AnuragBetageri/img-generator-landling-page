@@ -6,9 +6,8 @@
     margin-bottom: 0.5cm;
 }
 .getstarted_start
-{
-    height: 80vh;
-    padding: 5vh;
+{   
+    padding: 15vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
