@@ -2,7 +2,7 @@
 {
     padding: 1cm;
     width: 100vw;
-    background-color: rgb(246, 243, 243);
+    background-color: rgb(255, 255, 255);
 }
 
 .key_heading_sec
@@ -78,6 +78,7 @@
 {
     width: 100%;
     height: 100%;
+    filter: drop-shadow(17px 17px 11px #000000bb);
 }
 
 .key_content_heading

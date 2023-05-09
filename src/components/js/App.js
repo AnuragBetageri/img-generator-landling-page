@@ -5,10 +5,12 @@ import Getstarted from './getstarted';
 import Usecases from './usecases';
 import Endcredits from './endcredits';
 import Keyfeatures from './key_features';
+import Home from './home';
 
 function App() {
   return (
     <div className="App">
+      <Home></Home>
       <Keyfeatures></Keyfeatures>
       <Usecases></Usecases>
       <Collection></Collection>
