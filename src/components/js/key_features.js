@@ -1,5 +1,7 @@
 import "../css/keyfeatures.css";
-
+import free from "../image/free.png"
+import easyToUse from "../image/easytouse.png"
+import nocopy from "../image/c.png"
 function key_features() {
   return (
     <div className="Keyfeatures_sec">
@@ -23,7 +25,7 @@ function key_features() {
       <div className="key_content_body">
         <div className="key_content">
           <div className="key_images">
-            image\\\\\\\
+          <img src={free}></img>
           </div>
           <h3 className="key_content_heading">Free-to-use, no-cost</h3>
           <p>Completly free of cost </p>
@@ -31,7 +33,7 @@ function key_features() {
         </div>
         <div className="key_content">
           <div className="key_images">
-            image\\\\\\\
+            <img src={easyToUse}></img>
           </div>
           <h3 className="key_content_heading">Easy-to-use, yet smart</h3>
           <p>An image generation tool with a simple interface</p>
@@ -39,7 +41,7 @@ function key_features() {
         </div>
         <div className="key_content">
           <div className="key_images">
-            image\\\\\\\
+          <img src={nocopy}></img>
           </div>
           <h3 className="key_content_heading">Non-copyrighted images</h3>
           <p>Every image can be used for free for </p>
