@@ -15,27 +15,15 @@
 }
 
 .logopng {
-  height: 6cm;
+  height: 1.5cm;
   width: auto;
-  position: absolute;
-  top: -3cm;
-  left: -2cm;
-  /* background-color: aqua; */
+
 }
 
 .rights {
   color: white;
   font-size: x-small;
 }
-
-/* .head{
-font-family: 'Roboto', sans-serif;
-font-size: 14px;
-font-weight: 400;
-line-height: 21px;
-color: rgb(205, 205, 205);
-} */
-
 .uinfo {
   /* font-family: 'Roboto', sans-serif; */
   font-family: "Carlito", sans-serif;

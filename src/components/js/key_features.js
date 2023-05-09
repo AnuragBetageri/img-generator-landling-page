@@ -4,7 +4,7 @@ import easyToUse from "../image/easytouse.png"
 import nocopy from "../image/c.png"
 function key_features() {
   return (
-    <div className="Keyfeatures_sec">
+    <div id="Keyfeatures_sec">
       <div className="key_heading_sec">
         <div className="key_main_heading">
           <h1>

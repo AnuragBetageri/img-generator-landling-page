@@ -10,15 +10,22 @@ function home()
                 <div className="HomeNavBar">
                     <img src={logo} className="home_logo"></img>
 
-                    <button>Create</button>
+                    <button><a href="https://aroundai.vercel.app/"> Create</a></button>
                 </div>
-
+<div className="home_heading">
                 <h1>
-                    Around Ai
+                    AROUND AI
                 </h1>
-                <div>
+                <h2>
                     An Ai based Image genration tool 
-                </div>
+                </h2>
+
+</div>
+        <a href="#Keyfeatures_sec">
+            <div className=" home_btn">
+                Explore Us
+            </div>
+        </a>
 
 
             <svg class="waves" xmlns="http://www.w3.org/2000/svg" xlinkHref="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
