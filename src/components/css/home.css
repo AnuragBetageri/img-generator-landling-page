@@ -12,10 +12,32 @@
 {
     height: 3cm;
 }
+.HomeNavBar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1cm;
+}
 
+
+.HomeNavBar > button
+{
+    width: 3cm;
+    height: 1cm;
+    background-color: #0066ff;
+    color: white;
+    font-weight: bold;
+    border-radius: 0.3cm;
+    border: none;
+}
+
+h1{
+   color: aliceblue;
+}
 .home_body > SVG
 {
-    width: 120vw;
+    width: 100vw;
     height: 30vh;
     position: absolute;
     bottom: 0px;
