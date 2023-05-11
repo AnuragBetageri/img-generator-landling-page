@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import "../css/keyfeatures.css";
 import free from "../image/free.png"
 import easyToUse from "../image/easytouse.png"
