@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 .home_body
 {
     width: 100vw;
@@ -60,11 +61,12 @@
     background-color: rgba(255, 255, 255, 0.812);
     font-size: 0.5cm;
     color: rgb(0, 0, 0);
+    border-radius: 0.2cm;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
     transition-duration: 0.5s;
     z-index: 99;
     border: 2px #365fa0 solid ;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 900;
 }
 
 
