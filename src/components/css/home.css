@@ -56,13 +56,15 @@
 
 .home_btn
 {
-    padding: 0.4cm 0.8cm;
-    background-color: rgba(255, 255, 255, 0.61);
-    font-size: 0.6cm;
+    padding: 0.3cm 0.8cm;
+    background-color: rgba(255, 255, 255, 0.812);
+    font-size: 0.5cm;
     color: rgb(0, 0, 0);
     transition-duration: 0.5s;
     z-index: 99;
     border: 2px #365fa0 solid ;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
 }
 
 
