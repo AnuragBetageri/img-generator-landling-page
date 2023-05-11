@@ -3,7 +3,7 @@
 
 .maindiv {
   display: flex;
-  padding: 3cm 5cm;
+  padding: 2.5cm 3cm;
   justify-content: space-between;
   background: radial-gradient(circle at -4% -12.9%, rgb(74, 98, 110) 0.3%, rgb(30, 33, 48) 90.2%);
   width: 100vw;

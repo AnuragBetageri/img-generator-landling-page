@@ -50,7 +50,7 @@ function endcredits() {
           <h4>
             <a className="ainfo" href="abhibanur14@gmail.com">
               <div>
-                <svg
+                {/* <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="20"
                   height="20"
@@ -65,7 +65,7 @@ function endcredits() {
                     id="mainIconPathAttribute"
                     fill="#ffffff"
                   ></path>{" "}
-                </svg>
+                </svg> */}
               </div>
               support@AroundAI
             </a>
