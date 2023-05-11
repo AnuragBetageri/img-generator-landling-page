@@ -13,13 +13,16 @@ function home()
                     <button><a href="https://aroundai.vercel.app/"> Create</a></button>
                 </div>
 <div className="home_heading">
-                <h1>
-                    AROUND AI
-                </h1>
+<svg className="title" viewBox="0 0 1320 300">
+	<text x="50%" y="50%" dy=".35em" text-anchor="middle">
+		Around AI
+	</text>
+</svg>
                 <h2>
-                    An Ai based Image genration tool 
+                    An AI Based Text To Image Generator
                 </h2>
 
+                	
 </div>
         <a href="#Keyfeatures_sec">
             <div className=" home_btn">

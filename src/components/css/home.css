@@ -1,6 +1,5 @@
 .home_body
 {
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(97,186,255,1) 0%, rgba(166,239,253,1) 90.1% );
     width: 100vw;
     background: radial-gradient(circle at -4% -12.9%, rgb(74, 98, 110) 0.3%, rgb(30, 33, 48) 90.2%);
     height: 100vh;
@@ -44,7 +43,7 @@
 {
     display: flex;
     justify-content: center;
-    margin-top: 2.25cm;
+    margin-top: 1cm;
     z-index: 99;
 }
 
@@ -66,17 +65,17 @@
 {
  
     background-color: rgb(0, 0, 0);
-    font-weight: bold;
     color: white;
+    border: 1px solid #ffffff ;
 
     
 }
 
-.home_heading > h1{
+/* .home_heading > h1{
     letter-spacing: 0.2cm;
     color: white;
     font-size: 3cm;
-}
+} */
 
 .home_heading > h2
 {
@@ -84,6 +83,8 @@
     color: rgb(155, 155, 155);
     letter-spacing: 0.3cm;
     font-size: 1cm ;
+    text-align: center;
+    margin-top: -2cm;
 }
 .home_body > SVG
 {
@@ -153,6 +154,34 @@
     position: fixed;
     left: 15px;
     bottom: 15px
+}
+
+
+
+
+.title {
+	font-family: 'Russo One', sans-serif;
+    margin-top: -1cm;
+}
+.title text {
+	text-transform: uppercase;
+	animation: stroke 5s infinite alternate;
+	stroke-width: 2;
+	stroke: #365fa0;
+	font-size: 140px;
+    
+}
+@keyframes stroke {
+	0%   {
+		fill: rgb(27, 27, 27); stroke: rgb(255, 255, 255);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	60%  {fill: rgb(27, 27, 27); stroke: rgb(255, 255, 255); }
+	80%  {fill: rgb(27, 27, 27); stroke: rgb(255, 255, 255); stroke-width: 3; }
+	100% {
+		fill: rgb(255, 255, 255); stroke: rgb(27, 27, 27); 
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
 }
 
 
