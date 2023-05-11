@@ -9,8 +9,8 @@ import img7 from "../image/7.png";
 import img8 from "../image/8.png";
 import img9 from "../image/9.png";
 import img10 from "../image/10.png";
-// import img11 from "../image/11.png"
-// import img12 from "../image/12.png"
+import img11 from "../image/11.png"
+import img12 from "../image/12.png"
 
 function collection() {
   return (
@@ -30,23 +30,29 @@ function collection() {
         <img className="collection_image " src={img3}></img>
         <img className="collection_image " src={img4}></img>
         <img className="collection_image " src={img5}></img>
+        <img className="collection_image " src={img6}></img>
         <img className="collection_image " src={img1}></img>
         <img className="collection_image " src={img2}></img>
         <img className="collection_image " src={img3}></img>
         <img className="collection_image " src={img4}></img>
         <img className="collection_image " src={img5}></img>
+        <img className="collection_image " src={img6}></img>
       </div>
       <div className="img_marquee ">
-        <img className="collection_image m2" src={img6}></img>
+        
         <img className="collection_image m2" src={img7}></img>
         <img className="collection_image m2" src={img8}></img>
         <img className="collection_image m2" src={img9}></img>
         <img className="collection_image m2" src={img10}></img>
-        <img className="collection_image m2" src={img6}></img>
+        <img className="collection_image m2" src={img11}></img>
+        <img className="collection_image m2" src={img12}></img>
+
         <img className="collection_image m2" src={img7}></img>
         <img className="collection_image m2" src={img8}></img>
         <img className="collection_image m2" src={img9}></img>
         <img className="collection_image m2" src={img10}></img>
+        <img className="collection_image m2" src={img11}></img>
+        <img className="collection_image m2" src={img12}></img>
       </div>
     </section>
   );
