@@ -49,6 +49,7 @@
 .getstarted_btn>div {
     height: 41px;
     width: 1cm;
+    margin-left: 0.25cm;
 }
 
 
@@ -56,11 +57,10 @@
 .getstarted_btn {
     font-family: 'Poppins', sans-serif;
     height: 1.5cm;
-    font-size: 0.4cm;
+    font-size: 0.45cm;
     font-weight: 600;
     width: 6.5cm;
     border-radius: 1cm;
-    margin-left: 0.5cm;
     position: relative;
     display: flex;
     justify-content: center;
