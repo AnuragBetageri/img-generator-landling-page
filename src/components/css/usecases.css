@@ -6,6 +6,7 @@
   background-color: rgb(255, 255, 255);
   overflow: hidden;
   transition: 0.5s;
+  max-height: 1080px;
 }
 
 .usecases_content_body {
