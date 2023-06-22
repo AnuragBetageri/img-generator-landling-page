@@ -7,6 +7,12 @@ import Keyfeatures from "./key_features";
 import Home from "./home";
 import {Helmet} from "react-helmet";
 function App() {
+
+
+  window.onload = function() {
+    // Reset the zoom level to 100%
+    document.body.style.zoom = "1";
+  };
   return (
     <div className="App">
       <Helmet>
